@@ -28,3 +28,18 @@ int main() {
             std::cout << "Access denied.\n";
             energy--;
         }
+
+        std::cout << "Energy: " << energy << "\n";
+        std::cout << "Score : " << score << "\n";
+    }
+
+    std::cout << "\nSimulation ended.\n";
+    std::cout << "Final score: " << score << "\n";
+
+    if (score >= 30)
+        std::cout << "Mission successful!\n";
+    else
+        std::cout << "Better luck next time.\n";
+
+    return 0;
+}
